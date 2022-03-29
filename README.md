@@ -15,14 +15,18 @@
 2022 04 NEW
 ```
 
-#### Maybe you aren't Chinese . But it doesn't matter , because this object is a student code-text .
+#### Maybe you aren't Chinese . But it doesn't matter , because this object is a student code-text-test .
 
 ```
 U could back.
 ```
 
 #### Used Tencent Text for Test , used Vercel finished making website pages on.
+#### My English isn't so well,therefore I'll harder for this.
+###I like web creating ,through I am a teenager.
+### BYE
 
+#LULU
 ```
 End.
 ```
