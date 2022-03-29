@@ -1,35 +1,28 @@
-# Vue.js
+# 鹿鹿的网页学习开发之旅
 
-This directory is a brief example of a [Vue.js](https://vuejs.org/) app that can be deployed to Vercel with zero configuration.
+这个静态网站正在更新中，并作为私有企业所有，但是网页开源。
 
-## Deploy Your Own
+## 鹿鹿
+一初中学生。
 
-Deploy your own Vue.js project with Vercel.
+学会了HTML CSS JS后开始使用 Vercel 托管
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vue&template=vue)
+## 来到这里的都是同学吧
 
-_Live Example: https://vue-template.vercel.app_
-
-## Running Locally
-
-```
-yarn install
-```
-
-#### Compile and hot-reload for development
+#### 这是一个免费的实验教育平台
 
 ```
-yarn serve
+2022 04 NEW
 ```
 
-#### Compile and minify for production
+#### Maybe you aren't Chinese . But it doesn't matter , because this object is a student code-text .
 
 ```
-yarn build
+U could back.
 ```
 
-#### Lint and fix files
+#### Used Tencent Text for Test , used Vercel finished making website pages on.
 
 ```
-yarn lint
+End.
 ```
