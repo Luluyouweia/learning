@@ -12,7 +12,7 @@
 #### 这是一个免费的实验教育平台
 
 ```
-2022 04 NEW
+2022 04 NEW IN GITHUB
 ```
 
 #### Maybe you aren't Chinese . But it doesn't matter , because this object is a student code-text-test .
