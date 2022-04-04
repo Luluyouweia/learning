@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+	<title>考试宝典|语文|升级版</title> 
+
+	<style>
+	.topBar/*顶栏*/
+	{
+		background-color:#f3f3f3;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		text-align:center;
+		color:#99ccff;
+		height:30px;
+		border-bottom:1px solid black;
+	}
+		.topBar button{/*侧滑栏按钮*/
+			float:left;
+			padding:auto;
+			border:1px solid #ffffff;
+			background:#f1f1f1;
+			color:#a0a0a0;
+		}
+		
+	.nearBar{/*侧滑栏*/
+		position:fixed;
+		left:0;
+		background:#f3f3f3;
+		display:block;
+		border-right:1px solid #a0a0a0;
+		width:37.5%;
+		height:100%;
+		top:31px;
+		display:none;	
+	}
+		.nearBar ul{
+			list-style-type:none;
+		}
+		.title{
+			text-align:center;
+		}
+	body{
+		background:#f8f3e3;
+	}
+	
+	.message{
+		border:2px solid #a0a0a0;
+		background:#ffffff;
+		margin:3.5px;
+	}
+		.message h3{
+			color:#2a223f;
+			padding:6px;
+		}
+		.message div{
+			border:1px solid black;
+			padding:2px;
+			margin:0; 
+			left:0;
+			border-left:6px solid #58aefe;
+			border-right:none; 	
+		}
+    </style>
+</head>
+<body>
+	<div class="topBar">
+		<button onclick="topBarButton()">
+			目录
+		</button>
+		考试宝典 | v1.0.1
+	</div>
+	<div class="nearBar" id="nearbar">
+		<h3>目录</h3><ul><li>
+			<a>1.记叙文</a>
+		</li></ul>
+	</div>
+	<div><br></div>
+<!-- ———————————————————————————————————————————————————————————————————————————————— -->
+		<div class="title">
+			<h2>一 阅读 | 记叙文</h2>
+			1.1修辞
+		</div>
+		
+		<div class="message">
+			<h3>记叙类文体（修辞赏析）</h3>
+			<div>品析语言:<br>&nbsp&nbsp&nbsp&nbsp运用了____的修辞手法+作用</div>
+		</div>
+		
+		<div class="message">
+			<h3>拟人</h3>
+			<div>
+			运用了拟人的修辞手法，把____人格化，赋予了它人的动作和情态
+			</div>
+		<div>
+<!-- ———————————————————————————————————————————————————————————————————————————————— -->
+<script>
+	var topBarVal=0;
+	var NearBarY=document.getElementById("nearbar");
+	function topBarButton(){
+		if(topBarVal==1){
+			NearBarY.style.display="none";
+			topBarVal-=1;
+		}else{
+			NearBarY.style.display="block";
+			topBarVal+=1;
+		}	
+	}
+</script>
+</body>
+</html>
+
+    
+    
