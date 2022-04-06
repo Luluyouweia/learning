@@ -1,8 +1,10 @@
 <template>
   <div class="hello">
+    <title>鹿鹿教育：维护中</title>
     <h1>网站正在维护或更新中</h1>
     <p>
       暂时不提供其他服务,<br>
+      <！--
       <a href="https://cli.vuejs.org" target="_blank" rel="noopener">vue-cli documentation</a>.
     </p>
     <h3>Installed CLI Plugins</h3>
@@ -26,6 +28,7 @@
       <li><a href="https://vue-loader.vuejs.org" target="_blank" rel="noopener">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">awesome-vue</a></li>
     </ul>
+    -->
   </div>
 </template>
 
