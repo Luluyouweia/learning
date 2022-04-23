@@ -1,0 +1,111 @@
+.centerText{/*中心文字样式*/	
+	margin:auto;
+	width:50%;
+	color:#eee;
+	background-image:linear-gradient(to bottom right,#00f260,#0575e6);
+	background-image:-webkit-linear-gradient(to bottom right,pink,red,blue);
+	padding:50px;
+	margin-top:40px;
+	font-size:38.2px;
+	border-radius:3.14;
+	box-shadow:5px 5px 5px grey;
+	transition:2s;
+	-webkit-transition:2s;
+	text-align:center;
+	font-family:KaiTi;
+}
+
+.centerText:hover{
+	padding:61.8px;
+	box-shadow:8px 6px 8px #000000;
+	color:#ffffff;
+	font-size:43.21px;
+	background-image:linear-gradient(to bottom right,#0575e6,#00f260);
+}
+
+a.common{
+	color:green;
+}  
+
+.message,.center{
+	width:50%;margin:auto;text-align:center;
+}
+   
+.join{
+	text-decoration:none;
+	padding:12px;
+	border:1px solid #eee;
+	border-radius:5%;
+	background:#ffffff;
+	color:blue;
+	font-family:Monospace;
+	font-size:21px;
+	
+}
+	.join:hover{
+		-webkit-transition:1.6s;
+		transition:1.6s;
+		background:#3366ff;
+		color:#ffffff;
+	}
+
+.part{
+	left:0;
+	background:#eee;
+	position:absolute;
+	border-top:0.5px solid #000000;
+	width:100%;
+		text-decoration:none;
+		margin-top:38.2px;
+}
+	
+.part>div,.part>a{
+	background:#ffffff;
+	display:inline-block;
+	margin-left:6px;
+	margin-top:8px;
+	height:50%;
+	width:32%;
+	padding:37px;
+		text-decoration:none;
+}
+.part>div>div,.part>a>div{
+	font-size:23px;
+	text-align:center;
+	margin:7px;
+	color:black;
+}
+.part>div>artical,.part>a>artical{
+	margin:6px;
+	color:black;
+}
+
+/*特别刊目*/
+	.special{
+		left:0;
+		position:absolute;
+		background:#eee;
+		width:100%;
+		text-decoration:none;
+		top:300%;
+	}
+	
+	.special>div{
+		margin:6px;
+		font-size:16px;
+	}
+	.special>h6{
+		margin-top:0;
+		text-align:center;
+	}
+	.special a{
+		color:blue;
+		text-decoration:none;
+		text-align:center;
+	}
+	
+
+	
+body{
+	background-image:linear-gradient(to top right,#a8ff78,#78ffd6);
+} 
