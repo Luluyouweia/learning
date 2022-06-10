@@ -57,7 +57,7 @@
 		function music(num){
             console.log("Music Loading.",audio.src);
 			document.getElementById("audio").src=amusic[num];
-            return audio.play();
+            return true;
 		}
 		let iL=-1;
 		function loadForImg(){
