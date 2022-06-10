@@ -56,6 +56,8 @@
 		//控制音乐的函数 num表示曲目序号
 		function music(num){
 			audio.src=amusic[num];
+            console.log("Music Loading.")
+            return audio.play();
 		}
 		let iL=-1;
 		function loadForImg(){
