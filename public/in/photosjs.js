@@ -55,7 +55,7 @@
 		//音乐播放
 		//控制音乐的函数 num表示曲目序号
 		function music(num){
-            console.log("Music Loading.");
+            console.log("Music Loading.",audio.src);
 			document.getElementById("audio").src=amusic[num];
             return audio.play();
 		}
