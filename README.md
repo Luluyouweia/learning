@@ -2,7 +2,7 @@
 
 这个静态网站正在更新中，并作为私有企业所有，但是网页开源。
 
-[快速链接](http://learning-lac.vervel.app/)
+[快速链接](http://learning-lac.vercel.app/)
 
 ## 鹿鹿
 一初中学生。
