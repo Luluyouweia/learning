@@ -107,6 +107,18 @@
 				music(0);
 			}
 		}
+
+        function toggleSound() {
+            var music = document.getElementById("bgmusic");//获取ID
+                console.log(music);
+                console.log(music.paused);
+            if (music.paused) { //判读是否播放
+                music.paused=false;
+                music.play(); //没有就播放
+            }
+
+        }
+setInterval("toggleSound()",1
 		/*
 		function setCookie(cname,cvalue,exdays) { 
 			var d = new Date(); d.setTime(d.getTime()+(exdays*24*60*60*1000)); 
