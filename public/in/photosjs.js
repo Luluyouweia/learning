@@ -8,6 +8,7 @@
 		console.log("ready");
 		setTimeout(function(){
 			loadValue.style.width="12%";
+			document.getElementsByClassName("player")[0].style.opacity="0";
 		},1500)
 		setTimeout(function(){
 			loadValue.style.width="32%";
@@ -44,11 +45,17 @@
 		var getToolBar=0;
 		picture.onclick=function(){
 			console.log("|||User Clicked.");
-			toolBar.display="block";
+			toolBar.opacity="0.8";
+			toolBar.top="0";
 			getToolBar=1;
 			setTimeout(function(){
-				toolBar.display="none";
-			},6000)
+				toolBar.opacity="0";
+				toolBar.top="-20%";
+				$("toLeft").style="opacity: 0";
+				$("toRight").style="opacity: 0";
+			},6500)
+			$("toLeft").style="opacity: 0.8";
+			$("toRight").style="opacity: 0.8";
 		}
 		//点击图片的操作
 		
@@ -86,9 +93,8 @@
 	
 
 		function before(){
-			ap1_num-=1;ap2_num-=1;
-			(change==1)?0:1;
-			pages();	
+			imgValue-=2;
+			return show();	
 		}
 		var getNoneValue=0;
 		function none(){
@@ -103,22 +109,30 @@
 			else{
 				getNoneValue=1;
 				document.getElementById("returnNonePage").style.display="block";
-				document.getElementById("music-choose").style.top="-100%";
-				music(0);
 			}
 		}
 
-        function toggleSound() {
-            var music = document.getElementById("bgmusic");//获取ID
-                console.log(music);
-                console.log(music.paused);
-            if (music.paused) { //判读是否播放
-                music.paused=false;
-                music.play(); //没有就播放
-            }
+		function $(id){return document.getElementById(id);}
 
-        }
-setInterval("toggleSound()",1);
+
+		function getMusic(){
+			document.getElementById('music-choose').style.top='20%';document.getElementById('music-choose').style.opacity='0.8';
+			document.getElementsByClassName("player")[0].style.opacity="1";
+		}
+		function returnMusicMenu(){
+			document.getElementById('music-choose').style.top="-100%";
+			document.getElementById('music-choose').style.opacity="0";
+		}
+
+		$("pageOn").onmouseover=function(){
+			$("toLeft").style="opacity: 1";
+			$("toRight").style="opacity: 1";
+		}
+		$("pageOn").onmouseout=function(){
+			$("toLeft").style="opacity: 0";
+			$("toRight").style="opacity: 0";
+		}
+
 		/*
 		function setCookie(cname,cvalue,exdays) { 
 			var d = new Date(); d.setTime(d.getTime()+(exdays*24*60*60*1000)); 
@@ -151,7 +165,3 @@ setInterval("toggleSound()",1);
 				}
 			}
 		*/
-    
-    
-    
-    

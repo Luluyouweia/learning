@@ -8,42 +8,42 @@
 			
 		var amusic=new Array(); 
 			amusic[0]="";
-			amusic[1]="https://music.163.com/outchain/player?type=2&id=5276811&auto=1&height=66";
-			amusic[2]="https://music.163.com/outchain/player?type=2&id=1394369908&auto=1&height=66";
-			amusic[3]="https://music.163.com/outchain/player?type=2&id=5221167&auto=1&height=66";
+			amusic[1]="https://music.163.com/outchain/player?type=2&id=5276811&auto=1&height=32";
+			amusic[2]="https://music.163.com/outchain/player?type=2&id=1394369908&auto=1&height=32";
+			amusic[3]="https://music.163.com/outchain/player?type=2&id=5221167&auto=1&height=32";
 			
 			//aLIEz
-			amusic[5]="https://music.163.com/outchain/player?type=2&id=29307041&auto=1&height=66";
+			amusic[5]="https://music.163.com/outchain/player?type=2&id=29307041&auto=1&height=32";
 			
 			//rise
-			amusic[6]="https://music.163.com/outchain/player?type=2&id=28283137&auto=1&height=66";
+			amusic[6]="https://music.163.com/outchain/player?type=2&id=28283137&auto=1&height=32";
 			
 			//英雄的黎明
-			amusic[7]="https://music.163.com/outchain/player?type=2&id=393705&auto=1&height=66";
+			amusic[7]="https://music.163.com/outchain/player?type=2&id=393705&auto=1&height=32";
 			
 			//sold out
-			amusic[8]="https://music.163.com/outchain/player?type=2&id=31010566&auto=1&height=66";
+			amusic[8]="https://music.163.com/outchain/player?type=2&id=31010566&auto=1&height=32";
 			
 			//千本樱
-			amusic[9]="https://music.163.com/outchain/player?type=2&id=1339421617&auto=1&height=66";
+			amusic[9]="https://music.163.com/outchain/player?type=2&id=1339421617&auto=1&height=32";
 			
 			//Minecraft
-			amusic[10]="https://music.163.com/outchain/player?type=2&id=4010201&auto=1&height=66";
+			amusic[10]="https://music.163.com/outchain/player?type=2&id=4010201&auto=1&height=32";
 			
 			//明日 营地中心
-			amusic[11]="https://music.163.com/outchain/player?type=2&id=1329466573&auto=1&height=66";
+			amusic[11]="https://music.163.com/outchain/player?type=2&id=1329466573&auto=1&height=32";
 					
 			//After tomorrow
-			amusic[12]="https://music.163.com/outchain/player?type=2&id=1329466574&auto=1&height=66";
+			amusic[12]="https://music.163.com/outchain/player?type=2&id=1329466574&auto=1&height=32";
 			
 			//在野外
-			amusic[13]="https://music.163.com/outchain/player?type=2&id=1329466553&auto=1&height=66";
+			amusic[13]="https://music.163.com/outchain/player?type=2&id=1329466553&auto=1&height=32";
 			
 			//last reunion
-			amusic[14]="https://music.163.com/outchain/player?type=2&id=32102855&auto=1&height=66";
+			amusic[14]="https://music.163.com/outchain/player?type=2&id=32102855&auto=1&height=32";
 			
 			//LOVE Theme from TIGA 
-			amusic[15]="https://music.163.com/outchain/player?type=2&id=4968365&auto=1&height=66";
+			amusic[15]="https://music.163.com/outchain/player?type=2&id=4968365&auto=1&height=32";
     
     
     
