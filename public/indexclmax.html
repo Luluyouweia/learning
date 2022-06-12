@@ -55,7 +55,7 @@
      	
      .subject ul li{
      	list-style-type:none;
-     	display:inline-block;
+     	display:block;
      	color:#ffffff;
      	margin:5px;
      }
@@ -69,6 +69,7 @@
      		    
      	.subject ul li a:hover{
      		background:#257bcb;
+     		
           	}
           	
     .endIF{
@@ -126,20 +127,6 @@
               background-color:#3366ff;
             }
             
-	.show{
-		display: block;
-	background-color: LavenderBlush;
-	padding:15px 30px 15px 30px;
-	margin:10px;
-      	border:1.68px solid #eee;
-      	border-radius:3px;
-      	text-decoration:none;
-      	font-size:20px;
-      	color: #0f0136;
-      }
-    .show :hover {
-    	background: #3366ff;
-    	color: #fff;
      </style> 
 
 </head> 
@@ -148,13 +135,13 @@
 	<div id="BlaBar"></div> 
 	<br> 
 	<div class="top">
-		<button id="topButton" class="btMore" onclick="MoreShow()">≡</button> 
-		<div class="topMsg">
-       		<b>鹿鹿教育中心</b> 
-		</div> 
-	</div> 
+	<button id="topButton" class="btMore" onclick="MoreShow()">≡</button> 
+    	<div class="topMsg">
+       	<b>鹿鹿教育中心</b> 
+    	</div> 
+    </div> 
   
-	<div class="nearBar" id="nearBar"> 
+   <div class="nearBar" id="nearBar"> 
    	<ul class="tooBarObjectText"> 
     		<li> 
    	 		<a class="butTooBarObj" href="https://docs.qq.com/doc/DY2Z6VHJDT2Z3bHVk" target="_top"> 周末作业公示 </a> 
@@ -169,26 +156,16 @@
 	</div> 
 	<div class="homeObj"> 
 		<ul class="flaObj"> 
-			<li> 
+    		<li> 
 				<a class="flaText" href="https://docs.qq.com/doc/DY2Z6VHJDT2Z3bHVk" target="_top"> 作业</a>
 				<a class="flaText" href="/none.html">资料</a>
 				<a class="flaText" href="/none.html">题库</a> 
 				<a class="flaText" href="https://docs.qq.com/doc/DY2pPT1paR1BsYmxZ">公告</a> 
-				<a class="flaText" href="#active1">活动</a>
+				<a class="flaText" href="/none.html">活动</a>
 			</li>
 		</ul> 
 	</div>
-	<a class="show" href="in/pretty/edges.html">教育官网-邀请函</a>
-	<a class="show" href="in/photos.html" id="active1">
-		<h2>图库|更新中</h2>
-		<p>享受图幅，发现美好</p>
-		<h6><i>请确保网速流畅，以获得良好体验！<br>由于此功能刚刚上新，音乐及图幅仍在开发，大部分功能暂缺，且可能会有一点点bug，您可以在  首页>侧滑栏>建议   进行反馈。<br>图幅来源于Unsplash，音乐来自于网易云音乐。</i></h6>
-	</a>
-	
-	<a class="show" href="https://interpart.vercel.app">
-		日志|记录美好生活<h6>点击进入</h6>
-	</a>
-	
+
 	<div class="card"> 
 		<h2>资料选择（仅支持八年级下册）</h2> 
 		<!--科目选择--> 
@@ -290,6 +267,7 @@
       {
         
         NBar.style.display="none";
+
         NBarSetDsp-=1;
         topButton.innerHTML="≡";
       
@@ -304,13 +282,10 @@
       }
     }
   //侧滑栏]
+  
   </script> 
  
 </body></html>
-    
-    
-    
-    
     
     
     

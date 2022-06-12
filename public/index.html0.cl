@@ -9,7 +9,7 @@
        position:fixed;
        top:0;
        left:0;
-       background:#fefefe;
+       background:#FFFFFF;
        border-bottom:0.5px solid #888888;
        width:100%;
        height:31px;  
@@ -18,128 +18,66 @@
      .topMsg{
        /*顶栏内容*/
        text-align:center;
-       color :#6db8fe;
+       color :#888888;
      }
-    
-     .btMore{/*侧滑栏按钮*/
-     	float:left;background:#FFFFFF;border:none;padding:4px;width:50px;}
+     
+     .btMore{
+       float:left;
+       /*不空行居左*/    
+       background:#FFFFFF;
+       border:none;
+       padding:4px;
+       width:50px;
+       }
      
        .nearBar{
-		width:37.5%;height:100%;
-        left:0;position:fixed;background:#FFFFFF;
-        border-right:0.5px solid #000000;top:30px;
-        border-top:1px solid #000000;display:none;}
-       
-       .titleMain{/*大标题*/
-		font-size:39px;
-		color:transparent;
-		background:linear-gradient(#e66465, #9198e5);-webkit-background-clip:text;
+		width:37.5%;
+		height:100%;
+        left:0;
+        position:fixed;
+        background:#FFFFFF;
+        border-right:0.5px solid #000000;
+        top:30px;
+        border-top:1px solid #000000;
+        display:none;
        }
-       	.titleMain:hover{
-       	  color:transparent;background:linear-gradient(#9198e5,#e66465);-webkit-background-clip:text;}
+       
+       .titleMain{
+		font-size:30px;
+		color:transparent;
+		background:linear-gradient(#e66465, #9198e5);
+		-webkit-background-clip:text;
+       }
      body{
-       background-color:#eee;
+       background-color:#e7edef;
        /*background:url("/src/1000.jpg");*/
      }
      /*科目*/
      	.subject{
-     		border:0.9px solid #eee;
-     		paddind:10px;
+     		border:1px solid black;
+     		paddind:5px;
      		background-color:#ffffff;
      		margin:10px;
      	}
      	
      	.subject:hover{
-     		background:#f3f3f3;
+     		background:#fafafa;
      	}
      	
      .subject ul li{
      	list-style-type:none;
-     	display:inline-block;
+     	display:block;
      	color:#ffffff;
-     	margin:5px;
      }
      .subject ul li a{
      	text-decoration:none;
-     	background:#58aefe;
+     	background:#99ccff;
      	padding:16.8px;
-     	border-radius:5%;
      	color:#ffffff;
      }
-     		    
-     	.subject ul li a:hover{
-     		background:#257bcb;
-          	}
-          	
-    .endIF{
-      left:0;
-      width:100%;
-      text-align:right;
-      background-color:#A0A0A0;
-      
-    }   
-    .card{
-      border:0.6px solid #eee;
-      border-radius:0.5%;
-      background-color:#fefefe;
-      padding:5px;
-      margin-top:5px;
-      margin-bottom:6px;
-    }
-    
-    .tooBarObjectText{
-      list-style-type:none;
-      left:0;
-      border-right:none;
-    }
-    .butTooBarObj{
-        border:0.5px solid black;
-        width:100%;
-        float:left;
-        border-left:none;
-        color:black;
-        text-decoration:none;
-    }
-    	.butTooBarObj:hover{
-    		background:#797979;
-    		color:#ffffff;
-    	}
-    
-    
-      .flaObj{/*导航栏的基础对象*/
-        background:#fcfcfc;
-        list-style-type:none;
-        padding:10px;
-        text-decoration:none;
-        height:10%;margin:0;
-      } 
-      
-      .flaText{
-        /*导航栏文本链接*/
-        text-decoration:none;
-        color:#3366ff;
-        padding:10px;
-        border-right:0.5px solid #e9e9e9;
-      }
-            .flaText:hover{
-              color:white;
-              background-color:#3366ff;
-            }
-            
-	.show{
-		display: block;
-	background-color: LavenderBlush;
-	padding:15px 30px 15px 30px;
-	margin:10px;
-      	border:1.68px solid #eee;
-      	border-radius:3px;
-      	text-decoration:none;
-      	font-size:20px;
-      	color: #0f0136;
-      }
-    .show :hover {
-    	background: #3366ff;
-    	color: #fff;
+     .subject ul li a:hover{
+     	background:#A0A0A0;
+     }
      </style> 
 
 </head> 
@@ -148,13 +86,13 @@
 	<div id="BlaBar"></div> 
 	<br> 
 	<div class="top">
-		<button id="topButton" class="btMore" onclick="MoreShow()">≡</button> 
-		<div class="topMsg">
-       		<b>鹿鹿教育中心</b> 
-		</div> 
-	</div> 
+	<button id="topButton" class="btMore" onclick="MoreShow()">≡</button> 
+    	<div class="topMsg">
+       	<b>鹿鹿教育中心</b> 
+    	</div> 
+    </div> 
   
-	<div class="nearBar" id="nearBar"> 
+   <div class="nearBar" id="nearBar"> 
    	<ul class="tooBarObjectText"> 
     		<li> 
    	 		<a class="butTooBarObj" href="https://docs.qq.com/doc/DY2Z6VHJDT2Z3bHVk" target="_top"> 周末作业公示 </a> 
@@ -169,26 +107,17 @@
 	</div> 
 	<div class="homeObj"> 
 		<ul class="flaObj"> 
-			<li> 
+    		<li> 
 				<a class="flaText" href="https://docs.qq.com/doc/DY2Z6VHJDT2Z3bHVk" target="_top"> 作业</a>
-				<a class="flaText" href="/none.html">资料</a>
+				<a class="flaText" href="/none.html">资料</a> 
+				<a class="flaText" href="/none.html">笔记</a>
 				<a class="flaText" href="/none.html">题库</a> 
 				<a class="flaText" href="https://docs.qq.com/doc/DY2pPT1paR1BsYmxZ">公告</a> 
-				<a class="flaText" href="#active1">活动</a>
+				<a class="flaText" href="/none.html">活动</a>
 			</li>
 		</ul> 
-	</div>
-	<a class="show" href="in/pretty/edges.html">教育官网-邀请函</a>
-	<a class="show" href="in/photos.html" id="active1">
-		<h2>图库|更新中</h2>
-		<p>享受图幅，发现美好</p>
-		<h6><i>请确保网速流畅，以获得良好体验！<br>由于此功能刚刚上新，音乐及图幅仍在开发，大部分功能暂缺，且可能会有一点点bug，您可以在  首页>侧滑栏>建议   进行反馈。<br>图幅来源于Unsplash，音乐来自于网易云音乐。</i></h6>
-	</a>
-	
-	<a class="show" href="https://interpart.vercel.app">
-		日志|记录美好生活<h6>点击进入</h6>
-	</a>
-	
+   </div>
+    
 	<div class="card"> 
 		<h2>资料选择（仅支持八年级下册）</h2> 
 		<!--科目选择--> 
@@ -197,7 +126,7 @@
 					<h3>语文</h3> 
      				<li>
      					<a href="/examBook.html">考试宝典</a> 
-     					<a>古诗文</a>
+     					<a href="/none.html">古诗文</a>
 					</li> 
 				</ul>
 			</div>
@@ -271,14 +200,78 @@
 					</li>
 				</ul>
 			</div>
-	</div>
+	</div> <!--科目选择--> 
+ 
+
+    <h1> <li> 学习资料(别想歪了) </li> </h1> 
+    <h1> 和其他等等资源 </h1> 
     <div>
-      更新了精美的页面布局。
+      目前还在开发中 
     </div> 
+    <div>
+      希望"三连" 
+    </div> 
+    <div>
+      再别翻了，新网站，没啥了 
+    </div> 
+   </ul> 
+   <p>上面的bug需要重写一下，没错，标题的闪烁是意想不到的</p> 
   </div> 
-  <div style="text-align:center;margin:0;padding:0;border-top:0.5px solid black;color:white;left:0;height:40px;width:100%;">
+  <div>
     新疆塔城地区沙湾市鹿鹿互联网技术公司 
+   <br>开发中... 
   </div> 
+  <style>
+    .endIF{
+      left:0;
+      width:100%;
+      text-align:right;
+      background-color:#A0A0A0;
+      
+    }   
+    .card{
+      border:1px solid #000000;
+      border-radius:0.5%;
+      background-color:#f3f3f3;
+      padding:5px;
+    }
+    
+    .tooBarObjectText{
+      list-style-type:none;
+      left:0;
+      border-right:none;
+    }
+    .butTooBarObj{
+        border:0.5px solid black;
+        width:100%;
+        float:left;
+        border-left:none;
+        color:black;
+        text-decoration:none;
+    }
+    
+    
+      .flaObj{/*导航栏的基础对象*/
+        background:#8ac5fc;
+        list-style-type:none;
+        padding:10px;
+        text-decoration:none;
+        height:10%;
+      } 
+      
+      .flaText{
+        /*导航栏文本链接*/
+        text-decoration:none;
+        color:#f5fdfd;
+        padding:10px;
+        border-right:0.5px solid #e9e9e9;
+      }
+            .flaText:hover{
+              color:white;
+              background-color:#3366ff;
+            }
+            
+    </style> 
   <script>
   //侧滑栏[
   var NBarSetDsp = 0;
@@ -290,6 +283,7 @@
       {
         
         NBar.style.display="none";
+
         NBarSetDsp-=1;
         topButton.innerHTML="≡";
       
@@ -304,14 +298,8 @@
       }
     }
   //侧滑栏]
+  
   </script> 
  
 </body></html>
-    
-    
-    
-    
-    
-    
-    
     
